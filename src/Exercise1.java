@@ -20,27 +20,19 @@ public class Exercise1 {
 		{
 
 		line = scan.nextLine();
-
 		arr = line.split(",");
-
 		max = 0;
 
 		for(int i=0; i<arr.length; i++)
-
 		{
-
 		if(Integer.parseInt(arr[i]) > max)
-
 		max = Integer.parseInt(arr[i]);
-
 		}
 
 		System.out.println("ROW " + count + " : " + max);
-
 		count++;
-
 		}
 
-		}
+	}
 
-		}
+}
